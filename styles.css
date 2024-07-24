@@ -1,0 +1,49 @@
+.border {
+    border: 2px solid black;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#canvas {
+    display: block;
+    margin: auto;
+    margin-top: 5em;
+    background-color: white;
+}
+
+button {
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: large;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+button:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.buttons {
+    margin: auto;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+output {
+    margin: auto auto auto 5rem;
+    padding: 1rem 2rem;
+    background-color: white;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Game of Life</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/javascript" src="script.js"></script>
+    <script type="application/javascript" src="game_loop.js"></script>
+    <script type="application/javascript" src="game_render.js"></script>
+  </head>
+  <body id="body" onload="init_js()" class="flex-column" >
+      <canvas class="border" id="canvas" width="840" height="840" onclick="handle_canvas_click(event)"></canvas>
+      <div class="flex-row buttons">
+          <button class="border" onclick="start()">Start</button>
+          <button class="border" onclick="stop()">Stop</button>
+          <button class="border" onclick="reset()">Reset</button>
+          <button class="border" onclick="generate()">Seed</button>
+          <output class="border" name="gen" id="gen">Generace: 0</output>
+      </div>
+  </body>
+</html>
